@@ -1,59 +1,91 @@
-<!DOCTYPE html>
+;<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catálogo de Vídeos - Free Fire</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Catálogo de Vídeos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .video-item {
+            background-color: white;
+            width: 200px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .video-item img {
+            width: 100%;
+            height: auto;
+            border-bottom: 2px solid #ddd;
+        }
+        .video-item h3 {
+            font-size: 18px;
+            margin: 10px;
+        }
+        .video-item a {
+            display: block;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .video-item a:hover {
+            background-color: #555;
+        }
+    </style>
 </head>
 <body>
 
     <header>
-        <h1>Catálogo de Vídeos - Free Fire</h1>
-        <p>Assista aos melhores vídeos de dicas, estratégias e gameplays de Free Fire!</p>
+        <h1>Catálogo de Vídeos</h1>
+        <p>Descubra os melhores vídeos disponíveis</p>
     </header>
 
-    <section id="video-catalog">
-        <!-- Vídeo 1 -->
+    <div class="container">
         <div class="video-item">
-            <a href="https://www.youtube.com/watch?v=2v7T_djwFik" target="_blank">
-                <img src="https://img.youtube.com/vi/2v7T_djwFik/0.jpg" alt="Melhor jogada no Free Fire">
-                <h2>Melhor Jogada no Free Fire</h2>
-                <p>Assista a uma jogada épica em Free Fire com dicas de posicionamento e estratégia!</p>
-            </a>
+            <img src="https://via.placeholder.com/200x120" alt="Video 1">
+            <h3>Vídeo 1: Introdução ao HTML</h3>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Assistir</a>
         </div>
 
-        <!-- Vídeo 2 -->
         <div class="video-item">
-            <a href="https://www.youtube.com/watch?v=oiJlHzIY_Qw" target="_blank">
-                <img src="https://img.youtube.com/vi/oiJlHzIY_Qw/0.jpg" alt="Dicas para Melhorar no Free Fire">
-                <h2>Dicas para Melhorar no Free Fire</h2>
-                <p>Aprenda estratégias essenciais para melhorar seu desempenho em Free Fire.</p>
-            </a>
+            <img src="https://via.placeholder.com/200x120" alt="Video 2">
+            <h3>Vídeo 2: Como usar CSS</h3>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Assistir</a>
         </div>
 
-        <!-- Vídeo 3 -->
         <div class="video-item">
-            <a href="https://www.youtube.com/watch?v=5b9u5v5n8Ec" target="_blank">
-                <img src="https://img.youtube.com/vi/5b9u5v5n8Ec/0.jpg" alt="Como Dominar a Arena Free Fire">
-                <h2>Como Dominar a Arena Free Fire</h2>
-                <p>Guia completo para se tornar um mestre da Arena no Free Fire!</p>
-            </a>
+            <img src="https://via.placeholder.com/200x120" alt="Video 3">
+            <h3>Vídeo 3: JavaScript Básico</h3>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Assistir</a>
         </div>
 
-        <!-- Vídeo 4 -->
         <div class="video-item">
-            <a href="https://www.youtube.com/watch?v=UMVeFtzTfgs" target="_blank">
-                <img src="https://img.youtube.com/vi/UMVeFtzTfgs/0.jpg" alt="Como Fazer o Rush Perfeito">
-                <h2>Como Fazer o Rush Perfeito</h2>
-                <p>Descubra técnicas avançadas para realizar o rush perfeito no Free Fire.</p>
-            </a>
+            <img src="https://via.placeholder.com/200x120" alt="Video 4">
+            <h3>Vídeo 4: Ferramentas de Desenvolvimento</h3>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Assistir</a>
         </div>
+    </div>
 
-        <!-- Vídeo 5 -->
-        <div class="video-item">
-            <a href="https://www.youtube.com/watch?v=UDBs3Kxl7WI" target="_blank">
-                <img src="https://img.youtube.com/vi/UDBs3Kxl7WI/0.jpg" alt="Melhores Configurações para Free Fire">
-                <h2>Melhores Configurações para Free Fire</h2>
-                <p>Configure seu jogo de maneira otimizada para melhorar a jogabilidade no Free Fire.</p>
- 
+</body>
+</html>

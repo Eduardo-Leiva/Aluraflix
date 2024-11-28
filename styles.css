@@ -6,6 +6,10 @@ body {
     margin-bottom: 100px;
 }
 
+.logo{
+    height: 20px;;
+}
+
 header {
     border-bottom: solid 2px rgb(235, 0, 0);
     padding: 20px;
